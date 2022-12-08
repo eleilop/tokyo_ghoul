@@ -48,10 +48,12 @@ img {width: 20%;
 /**************************** MEDIA QUERIES ****************************/
 
 @media only screen and (width<=1000px){
+    #wrapper {width: 90%;}
     img {width: 30%;}
 }
 
 @media only screen and (width<=600px){
+    #wrapper {width: 100%;}
     img {float: none;
          width: 100%;}
 }
