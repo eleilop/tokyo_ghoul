@@ -1,0 +1,57 @@
+/**************************** ESTILO PERSONAJES ****************************/
+
+@font-face {
+    font-family: titulos;
+    src: url(../fonts/Downcome/DOWNCOME.TTF);
+}
+
+@font-face {
+    font-family: textos;
+    src: url(../fonts/Merriweather/Merriweather-Regular.ttf);
+}
+
+* {box-sizing: border-box;}
+
+body {margin: 0; padding: 0;
+      font-family: textos;
+      background-color: black;
+}
+
+#wrapper {width: 90%;
+          background-color: rgb(134, 134, 134);
+          margin: auto;
+          padding-left: 8%;
+          padding-right: 8%;
+          padding-bottom: 3%;
+}
+
+h1 {font-weight: normal;
+    font-family: titulos;
+    font-size: 4rem;
+    color: darkred;
+    text-align: center;
+}
+
+p {text-align: justify;
+   padding: 2%;
+}
+
+img {width: 20%;
+     float: right;
+     margin-top: 3%;
+     margin-left: 3%;
+     margin-bottom: 3%;
+}
+
+#Limpiar {clear:both;} /* Para desactivar el float left/right */
+
+/**************************** MEDIA QUERIES ****************************/
+
+@media only screen and (width<=1000px){
+    img {width: 30%;}
+}
+
+@media only screen and (width<=600px){
+    img {float: none;
+         width: 100%;}
+}
