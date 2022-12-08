@@ -50,18 +50,18 @@ nav {position: sticky;
            color: white;
            text-align: center;
            padding: 19px 16px;
-           font-size: 17px;
+           font-family: titulos;
+           font-size: 30px;
            transition: 0.3s;
 }
 
 .topnav a:hover {background-color: black;
                  color: darkred;
-                 font-weight: bold;
 }
 
 .topnav .icon {
   display: none;
-  padding: 0px;
+  padding: 9px;
 }
 
 @media screen and (max-width: 800px) {
@@ -96,17 +96,27 @@ nav {position: sticky;
 }
 
 #titulo {font-family: titulos;
-         font-size: 8rem;
+         font-size: 7rem;
          color: darkred;
 }
 
 /****************************** SYNOPSIS ******************************/
 
-#descripcion {background-color: rgb(161, 161, 161);
-              padding: 3%;
-              margin-left: 5%;
-              margin-right: 5%;
+.grid6 {display: grid;
+        grid-template-columns: 50% 50%;
+        padding-left: 10%;
+        padding-right: 10%;
 }
+
+.col6 {padding-left: 3%;
+       padding-right: 3%;
+       padding-bottom: 13%;
+       color: white;
+       text-align: justify;
+       font-size: 1.5rem;
+}
+
+.col6 img {width: 100%;}
 
 /****************************** GRID TEMPORADAS ******************************/
 
@@ -175,7 +185,6 @@ nav {position: sticky;
 
 .boton {text-decoration: none;
         color: white;
-        font-weight: bold;
         background-color: rgb(133, 133, 133);
         padding: 5px 10px;
         border-radius: 5px;
@@ -184,6 +193,7 @@ nav {position: sticky;
 
 .boton:hover {background-color: black;
               color: darkred;
+              font-weight: bold;
 }
 
 /**************************** GRID FOOTER ****************************/
@@ -254,7 +264,7 @@ footer {background-color: rgb(85, 85, 85);}
          padding: 1%;
 }
 
-.enlace:hover {color: red;
+.enlace:hover {color: darkred;
                font-weight: bold;
                background-color: black;
 }
@@ -268,6 +278,7 @@ footer {background-color: rgb(85, 85, 85);}
     #hero {background-image: url(../images/Tokyo_Ghoul2.jpeg);}
     .grid3 {grid-template-columns: 50% 50%;}
     .grid4 {grid-template-columns: 100%;}
+    .grid6 {grid-template-columns: 100%;}
 }
 
 @media only screen and (width<=600px){
@@ -280,4 +291,6 @@ footer {background-color: rgb(85, 85, 85);}
     .grid3 {grid-template-columns: 100%;}
     .grid4 {grid-template-columns: 100%;}
     .col4 p {font-size: 1.5rem;}
+    .grid6 {grid-template-columns: 100%;}
+    .col6 p {font-size: 1rem;}
 }
