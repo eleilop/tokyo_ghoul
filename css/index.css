@@ -49,9 +49,9 @@ nav {position: sticky;
            text-decoration: none;
            color: white;
            text-align: center;
-           padding: 20px 16px;
+           padding: 14px 16px;
            font-family: titulos;
-           font-size: 30px;
+           font-size: 25px;
            transition: 0.3s;
 }
 
@@ -61,7 +61,7 @@ nav {position: sticky;
 
 .topnav .icon {
   display: none;
-  padding: 9px;
+  padding: 0px;
 }
 
 @media screen and (max-width: 800px) {
@@ -195,6 +195,10 @@ nav {position: sticky;
               color: darkred;
               font-weight: bold;
 }
+
+/**************************** GALERÍA ****************************/
+
+.col4 img {width: 100%;}
 
 /**************************** GRID FOOTER ****************************/
 

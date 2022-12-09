@@ -6,14 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rize Kamishiro</title>
     <link rel="stylesheet" href="./css/personajes.css">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./js/funciones.js"></script>
 </head>
 <body>
     <div id="wrapper">
-        <h1>Rize Kamishiro</h1>
-        <img src="./images/Rize_Kamishiro.jpg" alt="Rize Kamishiro">
-        <p>Rize Kamishiro is a ghoul that was hanging out at Anteiku. She set her eyes on Ken Kaneki, but moments before eating him, she died in an accident and her organs were transplanted in Ken Kaneki, making him half-ghoul.</p>
-        <p>It is later revealed that she is still alive, and held captive by Akihiro Kanou: the doctor who transplanted Kamishiro's kakuhou into Kaneki. He is using her to create more artificial or "half" ghouls like Kaneki.</p>
-    <div id="Limpiar"></div>
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="./index.html">TOKYO GHOUL</a>
+                <a href="#">HOME</a>
+
+                <!-- El último botón es especial, se desactiva su href
+                para que no mande a ningún sitio. A cambio, es manipulado
+                por un JS que hace que se oculte cuando los demás botones estén
+                a la vista y se muestre cuando los botones se oculten. Aparece
+                solo cuando la pantalla sea pequeña.-->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+        <div id="contenido">
+            <h1>Rize Kamishiro</h1>
+            <img src="./images/Rize_Kamishiro.jpg" alt="Rize Kamishiro">
+            <p>Rize Kamishiro is a ghoul that was hanging out at Anteiku. She set her eyes on Ken Kaneki, but moments before eating him, she died in an accident and her organs were transplanted in Ken Kaneki, making him half-ghoul.</p>
+            <p>It is later revealed that she is still alive, and held captive by Akihiro Kanou: the doctor who transplanted Kamishiro's kakuhou into Kaneki. He is using her to create more artificial or "half" ghouls like Kaneki.</p>
+        <div id="Limpiar"></div>
+        </div>
     </div>
 </body>
 </html>

@@ -6,15 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Touka Kirishima</title>
     <link rel="stylesheet" href="./css/personajes.css">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./js/funciones.js"></script>
 </head>
 <body>
     <div id="wrapper">
-        <h1>Touka Kirishima</h1>
-        <img src="./images/Touka_Kirishima.jpg" alt="Touka Kirishima">
-        <p>Touka is a ghoul successfully posing as a human and working as a waitress at a cafe which serves as a gathering place for other ghouls, as well as a food resource.</p>
-        <p>She saves Kaneki's life at one point and acts as a reluctant guide to him and his adaptation to the ghoul society. She is very serious, tough and hard-working, trying to keep their district as safe for ghouls and humans as possible.</p>
-        <p>Her powers and strength are also quite great and she makes for a formidable opponent.</p>
-    <div id="Limpiar"></div>
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="./index.html">TOKYO GHOUL</a>
+                <a href="#">HOME</a>
+
+                <!-- El último botón es especial, se desactiva su href
+                para que no mande a ningún sitio. A cambio, es manipulado
+                por un JS que hace que se oculte cuando los demás botones estén
+                a la vista y se muestre cuando los botones se oculten. Aparece
+                solo cuando la pantalla sea pequeña.-->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+        <div id="contenido">
+            <h1>Touka Kirishima</h1>
+            <img src="./images/Touka_Kirishima.jpg" alt="Touka Kirishima">
+            <p>Touka is a ghoul successfully posing as a human and working as a waitress at a cafe which serves as a gathering place for other ghouls, as well as a food resource.</p>
+            <p>She saves Kaneki's life at one point and acts as a reluctant guide to him and his adaptation to the ghoul society. She is very serious, tough and hard-working, trying to keep their district as safe for ghouls and humans as possible.</p>
+            <p>Her powers and strength are also quite great and she makes for a formidable opponent.</p>
+        <div id="Limpiar"></div>
+        </div>
     </div>
 </body>
 </html>

@@ -6,15 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ken Kaneki</title>
     <link rel="stylesheet" href="./css/personajes.css">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./js/funciones.js"></script>
 </head>
 <body>
     <div id="wrapper">
-        <h1>Ken Kaneki</h1>
-        <img src="./images/Ken_Kaneki.jpg" alt="Ken Kaneki">
-        <p>Originally born as a human, his encounter with a female ghoul under the name of Kamishiro Rize forced him to undergo emergency surgery procedures after his assault by her. Cunning and manipulative, Rize uses her charms and Kaneki's attraction toward her as a means of getting her next "meal." After the attack, Kaneki is rushed to the hospital in a half-dead state with Rize. A doctor of the name Kanou, who secretly experiments with ghouls, humans, and half-ghouls, transplants what Kaneki believes to be a kidney into his body as a means of saving his life in the dire situation. Soon he learns that he had part of Rize's kagune transplanted into him, becoming the first of many human-ghoul experiments Kanou will conduct.</p>
-        <p>Originally born as a human, his encounter with a female ghoul under the name of Kamishiro Rize forced him to undergo emergency surgery procedures after his assault by her. Cunning and manipulative, Rize uses her charms and Kaneki's attraction toward her as a means of getting her next "meal." After the attack, Kaneki is rushed to the hospital in a half-dead state with Rize. A doctor of the name Kanou, who secretly experiments with ghouls, humans, and half-ghouls, transplants what Kaneki believes to be a kidney into his body as a means of saving his life in the dire situation. Soon he learns that he had part of Rize's kagune transplanted into him, becoming the first of many human-ghoul experiments Kanou will conduct.</p>
-        <p>Later, he joins with several ghouls, Banjou and Tsukiyama Shuu, in order to reduce the number of ghouls that cause havoc in the world to make the lives of humans better. Due to the nature of his ghoul mask and physical features, Kaneki earns himself the name "One-Eye" among the ghoul-community, and eventually "Centipede" when his kagune takes the form of one after he is put under immense stress, pressure, and anxiety. The CCG eventually dub him to be an SS-Rated ghoul.</p>
-    <div id="Limpiar"></div>
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="./index.html">TOKYO GHOUL</a>
+                <a href="#">HOME</a>
+
+                <!-- El último botón es especial, se desactiva su href
+                para que no mande a ningún sitio. A cambio, es manipulado
+                por un JS que hace que se oculte cuando los demás botones estén
+                a la vista y se muestre cuando los botones se oculten. Aparece
+                solo cuando la pantalla sea pequeña.-->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+        <div id="contenido">
+            <h1>Ken Kaneki</h1>
+            <img src="./images/Ken_Kaneki.jpg" alt="Ken Kaneki">
+            <p>Originally born as a human, his encounter with a female ghoul under the name of Kamishiro Rize forced him to undergo emergency surgery procedures after his assault by her. Cunning and manipulative, Rize uses her charms and Kaneki's attraction toward her as a means of getting her next "meal." After the attack, Kaneki is rushed to the hospital in a half-dead state with Rize. A doctor of the name Kanou, who secretly experiments with ghouls, humans, and half-ghouls, transplants what Kaneki believes to be a kidney into his body as a means of saving his life in the dire situation. Soon he learns that he had part of Rize's kagune transplanted into him, becoming the first of many human-ghoul experiments Kanou will conduct.</p>
+            <p>Originally born as a human, his encounter with a female ghoul under the name of Kamishiro Rize forced him to undergo emergency surgery procedures after his assault by her. Cunning and manipulative, Rize uses her charms and Kaneki's attraction toward her as a means of getting her next "meal." After the attack, Kaneki is rushed to the hospital in a half-dead state with Rize. A doctor of the name Kanou, who secretly experiments with ghouls, humans, and half-ghouls, transplants what Kaneki believes to be a kidney into his body as a means of saving his life in the dire situation. Soon he learns that he had part of Rize's kagune transplanted into him, becoming the first of many human-ghoul experiments Kanou will conduct.</p>
+            <p>Later, he joins with several ghouls, Banjou and Tsukiyama Shuu, in order to reduce the number of ghouls that cause havoc in the world to make the lives of humans better. Due to the nature of his ghoul mask and physical features, Kaneki earns himself the name "One-Eye" among the ghoul-community, and eventually "Centipede" when his kagune takes the form of one after he is put under immense stress, pressure, and anxiety. The CCG eventually dub him to be an SS-Rated ghoul.</p>
+        <div id="Limpiar"></div>
+        </div>
     </div>
 </body>
 </html>

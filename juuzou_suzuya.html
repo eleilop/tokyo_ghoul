@@ -6,15 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juuzou Suzuya</title>
     <link rel="stylesheet" href="./css/personajes.css">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./js/funciones.js"></script>
 </head>
 <body>
     <div id="wrapper">
-        <h1>Juuzou Suzuya</h1>
-        <img src="./images/Juuzou_Suzuya.jpg" alt="Juuzou Suzuya">
-        <p>Juuzou Suzuya is a Rank 3 Ghoul Investigator. In the past, he went by the name Rei Suzuya. He is the partner of Yukinori Shinohara. He is a young man with an androgynous appearance. He bears stitches on his lips and other places, used as both first-aid and fashion. His hair is pinned with a stitching string in a Roman numeral 13 pattern, and has large pupils that leave an eerie and frightening impression.</p>
-        <p>Juuzou has a childish, careless behaviour, does not care for the property of others, is enthusiastic, and often very resourceful in his job. He seems to have no qualms in killing ghouls.</p>
-        <p>After the two-year time skip of Tokyo Ghoul:re, Suzuya's hair is dyed black, and he is the leader of his own squad. He demonstrates maturity and even appears to empathize with ghouls unlike before. He is also far more invested in the welfare of his CCG coworkers, and has a particularly close relationship with Sasaki Haise.</p>
-    <div id="Limpiar"></div>
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="./index.html">TOKYO GHOUL</a>
+                <a href="#">HOME</a>
+
+                <!-- El último botón es especial, se desactiva su href
+                para que no mande a ningún sitio. A cambio, es manipulado
+                por un JS que hace que se oculte cuando los demás botones estén
+                a la vista y se muestre cuando los botones se oculten. Aparece
+                solo cuando la pantalla sea pequeña.-->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+        <div id="contenido">
+            <h1>Juuzou Suzuya</h1>
+            <img src="./images/Juuzou_Suzuya.jpg" alt="Juuzou Suzuya">
+            <p>Juuzou Suzuya is a Rank 3 Ghoul Investigator. In the past, he went by the name Rei Suzuya. He is the partner of Yukinori Shinohara. He is a young man with an androgynous appearance. He bears stitches on his lips and other places, used as both first-aid and fashion. His hair is pinned with a stitching string in a Roman numeral 13 pattern, and has large pupils that leave an eerie and frightening impression.</p>
+            <p>Juuzou has a childish, careless behaviour, does not care for the property of others, is enthusiastic, and often very resourceful in his job. He seems to have no qualms in killing ghouls.</p>
+            <p>After the two-year time skip of Tokyo Ghoul:re, Suzuya's hair is dyed black, and he is the leader of his own squad. He demonstrates maturity and even appears to empathize with ghouls unlike before. He is also far more invested in the welfare of his CCG coworkers, and has a particularly close relationship with Sasaki Haise.</p>
+        <div id="Limpiar"></div>
+        </div>
     </div>
 </body>
 </html>

@@ -6,16 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eto</title>
     <link rel="stylesheet" href="./css/personajes.css">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./js/funciones.js"></script>
 </head>
 <body>
     <div id="wrapper">
-        <h1>Eto</h1>
-        <img src="./images/Eto.jpg" alt="Eto">
-        <p>Eto is an executive of Aogiri Tree from the 24th ward. Eto is often seen interacting with fellow Aogiri member Tatara.</p>
-        <p>She is the daughter of Yoshimura, and the half-Ghoul known as the One-Eyed Owl.</p>
-        <p>Her human identity is Sen Takatsuki (高槻 泉), a best-selling horror novelist mentioned throughout the series.</p>
-        <p>Her relation with the One-Eyed King is unclear. However the CCG and Nico speculate that they are the same person.</p>
-    <div id="Limpiar"></div>
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="./index.html">TOKYO GHOUL</a>
+                <a href="#">HOME</a>
+
+                <!-- El último botón es especial, se desactiva su href
+                para que no mande a ningún sitio. A cambio, es manipulado
+                por un JS que hace que se oculte cuando los demás botones estén
+                a la vista y se muestre cuando los botones se oculten. Aparece
+                solo cuando la pantalla sea pequeña.-->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+        <div id="contenido">
+            <h1>Eto</h1>
+            <img src="./images/Eto.jpg" alt="Eto">
+            <p>Eto is an executive of Aogiri Tree from the 24th ward. Eto is often seen interacting with fellow Aogiri member Tatara.</p>
+            <p>She is the daughter of Yoshimura, and the half-Ghoul known as the One-Eyed Owl.</p>
+            <p>Her human identity is Sen Takatsuki (高槻 泉), a best-selling horror novelist mentioned throughout the series.</p>
+            <p>Her relation with the One-Eyed King is unclear. However the CCG and Nico speculate that they are the same person.</p>
+        <div id="Limpiar"></div>
+        </div>
     </div>
 </body>
 </html>
